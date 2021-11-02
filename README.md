@@ -1,5 +1,5 @@
 # Backend MERN Auth-Page
-Before running the app, write your login and password for the connection to you Mongo database in route/index.js
+Before running the app, write your login and password for the connection to you Mongo database in ro/index.js
 (mongodb+srv://login:password@cluster0.ytxdy.mongodb.net/DataBaseName?retryWrites=true&w=majority)
 
 <h2>To run app:</h2>
