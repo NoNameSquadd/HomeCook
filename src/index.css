@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+* {
+  margin: 0;
+  /* font-family: 'Noticia Text'; */
+  font-family: 'Merriweather', serif;
+  color: #6D4C3D;
+  /* color: #333; */
+}
+
+.App {
+  background-image: url('https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-41739.jpg?size=626&ext=jpg');
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+p {
+  max-width: 60%;
+  line-height: 40px;
+  /* display: flex; */
+  /* justify-content: center;
+  text-align: center; */
+  margin: 0;
+  padding: 0;
+}
+
+#logo_pic:hover {
+  color: #E76F51;
+}
+
+.navbar {
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: larger;
+  background-color: rgba(255, 255, 255, 0.603);
+  position: fixed;
+  backdrop-filter: blur(2px);
+  /* filter: blur(8px); */
+  /* -webkit-filter: blur(8px); */
+}
+
+.navbar .links {
+  margin-left: 0;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  /* font-weight: 600; */
+}
+
+.navbar a:hover {
+  color: #E76F51;
+}
+
+#home {
+  color: #A3A380;
+}
+
+#home:hover {
+  color: #FFD972;
+}
+
+#login, #register {
+  padding: 10px 30px;
+  width: 200px;
+  color:#6D4C3D;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: medium;
+  line-height: 20px;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 100px;
+  background-color: #efebcea1;
+}
+
+#register {
+  margin-left: 20px;
+  background-color: #efebcea1;
+}
+
+#navbar_buttons {
+  display: flex;
+  margin-right: 40px;
+}
+
+#register:hover, #login:hover {
+  background-color: #f79d65bb;
+  box-shadow: #6D4C3D;
+}
+
+.home {
+  padding-top: 9%;
+  padding-left: 1%;
+}
+
+#stamp_pic {
+  border-radius: 100%;
+  float:left;
+  margin: 4px 10px 2px 0px;
+}
+
+h1 {
+  font-size: 70px;
+  color: #E76F51;
+  text-align: center;
+  width: 40%;
+}
